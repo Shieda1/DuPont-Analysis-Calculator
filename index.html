@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DuPont Analysis Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="returnonEquityRadio" name="variables" checked>
+  <label for="returnonEquityRadio">Return on Equity</label>
+
+  <input type="radio" id="netIncomeRadio" name="variables" disabled>
+  <label for="netIncomeRadio">Net Income</label>
+
+  <input type="radio" id="netSalesRadio" name="variables" disabled>
+  <label for="netSalesRadio">Net Sales</label>
+
+  <input type="radio" id="netAssetsRadio" name="variables" disabled>
+  <label for="netAssetsRadio">Net Assets</label>
+
+  <input type="radio" id="netEquityRadio" name="variables" disabled>
+  <label for="netEquityRadio">Net Equity</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v1" id="variable1">Net Income</label>
+  <input type="number" id="v1"><br><br>
+  
+  <label for="v2" id="variable2">Net Sales</label>
+  <input type="number" id="v2"><br><br>
+  
+  <label for="v3" id="variable3">Net Assets</label>
+  <input type="number" id="v3"><br><br>
+  
+  <label for="v4" id="variable4">Net Equity</label>
+  <input type="number" id="v4"><br><br>
+
+  <button id="btn">compute</button>
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
